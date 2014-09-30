@@ -1,0 +1,15 @@
+name:           HOpenGLExPoints
+version:        0.1
+cabal-version:  >=1.2
+build-type:     Simple
+author:         Tibor
+
+executable HOpenGLExPoints
+  hs-source-dirs:  src
+  main-is:         Main.hs
+  build-depends:   
+                   base >= 4,
+                   OpenGL,
+                   GLUT
+  ghc-options:     -Wall
+
